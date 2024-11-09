@@ -1,0 +1,19 @@
+// Example VM file with functions and labels
+
+// Push two constants onto the stack
+push constant 5
+push constant 3
+
+// Perform an addition
+add
+
+// Store the result in the local segment at index 0
+pop local 0
+
+// Define a label
+label LOOP_START
+
+// Call a function
+call ExampleFunction 0
+
+// End of the program
